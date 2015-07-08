@@ -33,7 +33,7 @@ textures/chasm_custom/sky
 
 	q3map_lightRGB 0.3 0.3 0.3
 	//q3map_lightmapFilterRadius 0 4
-	q3map_skyLight 84 7
+	q3map_skyLight 88 7
 
 	q3map_nofog
 
@@ -42,6 +42,17 @@ textures/chasm_custom/sky
 		map textures/chasm_custom/stormyskybright.jpg
 		tcmod scroll -0.01 0.003
 		tcmod scale 2 2
+		alphaGen const 0.6
+		blendFunc blend
+		rgbGen identityLighting
+	}
+	{
+		fog off
+		map textures/chasm_custom/stormyskybright.jpg
+		tcmod scroll -0.005 0.002
+		tcmod scale 1.3 1.3
+		alphaGen const 0.6
+		blendFunc blend
 		rgbGen identityLighting
 	}
 
