@@ -1,0 +1,66 @@
+-[ general ]-----------------------------------------------------------------
+    title : Chasm
+    version : 1.1 development preview
+    release date : 2015-08-08
+    author: Supertanker
+
+-[ license ]-----------------------------------------------------------------
+   Snow Station map file is licensed under a
+   Creative Commons Attribution-Share Alike 3.0 License:
+   https://creativecommons.org/licenses/by-sa/3.0/
+
+-[ credits ]-----------------------------------------------------------------
+    textures : Quake4 eX Texture Set by Yves Allaire aka "evillair"
+               (http://evillair.net)
+               released under CC BY-SA license
+               (https://creativecommons.org/licenses/by-sa/4.0/)
+
+               PK01 and PK02 Quake4 texture set by Philip Klevestav
+               (http://www.philipk.net)
+               released under CC BY license
+               (http://creativecommons.org/licenses/by/3.0/)
+
+               Powerplant Textures (q4power) set by Matt "Lunaran" Breit
+               (http://www.lunaran.com)
+               released under a custom license with NC clause
+               (http://www.lunaran.com/files/q4power.txt)
+
+    sounds :
+        Wind sounds by kangaroovindaloo on freesound.org (CC BY 3.0)
+        Generator sound by HerbertBoland on freesound.org (CC Sampling Plus 1.0)
+        Drone sound by yawfle on freesound.org (CC Sampling Plus 1.0)
+
+        ambient.wav (originally: sound-underwater2.wav) by zippi1
+            (http://www.freesound.org/people/zippi1/sounds/18265/)
+            released under CC BY-NC license
+
+    particles : borrowed from Niveus
+
+-[ construction ]------------------------------------------------------------
+    software : Netradiant 1.5.0, q3map2, GIMP 2.8, audacity 2.0.2
+    compile settings :
+
+        FAST (testing):
+                bsp: -leaktest -meta -samplesize 16
+                visoptions:    -hint -vis -saveprt
+                lightoptions:  -light -lightmapsearchpower 3 -fast -bounce 4
+                               -bouncescale 2 -shade -samples 2 -patchshadows
+                               -lightmapsize 1024 -deluxe
+
+        FINAL (beauty shots):
+                bsp: -leaktest -meta -samplesize 4
+                visoptions:    -hint -vis -saveprt
+                lightoptions:  -light -lightmapsearchpower 3 -fast -bounce 16
+                               -bouncescale 2 -shade -samples 3 -patchshadows
+                               -lightmapsize 1024 -deluxe -bouncegrid
+
+    compile time : 298 seconds on i3-2120 CPU @ 3.30GHz x 4
+
+-[ setting ]-----------------------------------------------------------------
+
+    theme: A snowstation close to a chasm of instant death.
+    
+-[ changelog ]---------------------------------------------------------------
+    beta1: first speedmap result (4 days)
+    beta2: changed computer room, added rocks and stuff outside
+    beta3: added snow particles
