@@ -6,22 +6,24 @@
 
 -[LICENSE]---------------------------------------------------------------------
    Snow Station map file is licensed under a
-    Creative Commons Attribution-Noncommercial-Share Alike 3.0 License:  
-    http://creativecommons.org/licenses/by-nc-sa/3.0/
+Creative Commons Attribution-Share Alike 3.0 License:
+    https://creativecommons.org/licenses/by-sa/3.0/
 
 -[CREDITS]---------------------------------------------------------------------
     textures : Quake4 eX Texture Set by Yves Allaire aka "evillair" 
                (http://evillair.net)
-               released under CC BY-NC-ND license
-               (http://creativecommons.org/licenses/by-nc-nd/3.0/)
+               released under CC BY-SA license
+               (https://creativecommons.org/licenses/by-sa/4.0/)
 
                PK01 and PK02 Quake4 texture set by Philip Klevestav
                (http://www.philipk.net)
                released under CC BY license
-               (http://creativecommons.org/licenses/by/3.0/deed.en_US)
+               (http://creativecommons.org/licenses/by/3.0/)
                
                Powerplant Textures (q4power) set by Matt "Lunaran" Breit
                (http://www.lunaran.com)
+			   released under a custom license with NC clause
+			   (http://www.lunaran.com/files/q4power.txt)
                
 
     sounds :  
