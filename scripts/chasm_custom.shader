@@ -1,10 +1,10 @@
 
 textures/chasm_custom/pk02_snow01
 {
-	qer_editorimage textures/chasm_custom/pk02_snow1_C.tga
-	diffusemap 	textures/chasm_custom/pk02_snow1_C.tga
-	specularmap 	textures/chasm_custom/pk02_snow1_S.tga
-	bumpmap 	textures/chasm_custom/pk02_snow1_N.tga
+	qer_editorimage textures/chasm_custom/pk02_snow1_d.tga
+	diffusemap 	textures/chasm_custom/pk02_snow1_d.tga
+	specularmap 	textures/chasm_custom/pk02_snow1_s.tga
+	bumpmap 	textures/chasm_custom/pk02_snow1_n.tga
 
 	q3map_nonplanar
 	q3map_shadeangle 179
@@ -14,10 +14,10 @@ textures/chasm_custom/pk02_snow01
 textures/chasm_custom/pk02_snow01_nonsolid
 {
 	surfaceparm 	nonsolid
-	qer_editorimage textures/chasm_custom/pk02_snow1_C.tga
-	diffusemap 	textures/chasm_custom/pk02_snow1_C.tga
-	specularmap 	textures/chasm_custom/pk02_snow1_S.tga
-	bumpmap 	textures/chasm_custom/pk02_snow1_N.tga
+	qer_editorimage textures/chasm_custom/pk02_snow1_d.tga
+	diffusemap 	textures/chasm_custom/pk02_snow1_d.tga
+	specularmap 	textures/chasm_custom/pk02_snow1_s.tga
+	bumpmap 	textures/chasm_custom/pk02_snow1_n.tga
 
 	q3map_nonplanar
 	q3map_shadeangle 179
@@ -59,7 +59,7 @@ textures/chasm_custom/sky
 	{
 		fog off
 		clampmap textures/chasm_custom/snowysky_mask.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_sRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		tcMod transform 1 0 0 1 -1 -1
 	}
 }
@@ -249,7 +249,7 @@ textures/chasm_custom/floor10
 // grate
 textures/chasm_pk02/floor10
 {
-	qer_editorImage     textures/chasm_pk02_src/pk02_floor10_C
+	qer_editorImage     textures/chasm_pk02_src/pk02_floor10_d
 	qer_trans           0.50
 
 	cull                none
@@ -257,10 +257,10 @@ textures/chasm_pk02/floor10
 	surfaceparm         trans
 	surfaceparm 	    alphashadow
 	{
-		map       textures/chasm_pk02_src/pk02_floor10_C
+		map       textures/chasm_pk02_src/pk02_floor10_d
 		stage     diffuseMap
 		alphaFunc GE128
 	}
-	normalMap           textures/chasm_pk02_src/pk02_floor10_N
-	specularMap         textures/chasm_pk02_src/pk02_floor10_S
+	normalMap           textures/chasm_pk02_src/pk02_floor10_n
+	specularMap         textures/chasm_pk02_src/pk02_floor10_s
 }
