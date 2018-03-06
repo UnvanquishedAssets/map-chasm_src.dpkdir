@@ -5,5 +5,4 @@ tex-pk02
 tex-tech
 tex-trak5
 tex-common
-tex-ej01-clean
-tex-ej01-ice
+tex-ej01
