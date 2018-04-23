@@ -37040,3 +37040,13 @@ shared_pk02/generic01a
 ( -640 2816 168 ) ( -768 2688 172 ) ( -640 2816 112 ) common/caulk 0 0 0 0.5 0.5 134217728 0 0
 }
 }
+{
+"classname" "misc_particle_system"
+"origin" "64.000000 -896.000000 288.000000"
+"psName" "chasm/snowfall"
+}
+{
+"classname" "misc_particle_system"
+"origin" "448.000000 -896.000000 288.000000"
+"psName" "chasm/snowfall"
+}
