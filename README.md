@@ -3,6 +3,7 @@ Chasm
 
 ![Chasm levelshot](meta/chasm/chasm.jpg)
 
+
 About
 -----
 
@@ -11,6 +12,7 @@ _Chasm_ is a snowstation map featuring a chasm.
 This map is a work in progress by Cody “Supertanker” Jackson for the [Unvanquished](https://unvanquished.net) game project.
 
 Visit the [Unvanquished website](https://unvanquished.net/) for more information about the game itself.
+
 
 Legal
 -----
