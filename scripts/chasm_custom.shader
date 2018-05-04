@@ -2,9 +2,9 @@
 textures/chasm_custom/pk02_snow01
 {
 	qer_editorimage textures/chasm_custom/pk02_snow1_d.tga
-	diffusemap 	textures/chasm_custom/pk02_snow1_d.tga
-	specularmap 	textures/chasm_custom/pk02_snow1_s.tga
-	bumpmap 	textures/chasm_custom/pk02_snow1_n.tga
+	diffuseMap      textures/chasm_custom/pk02_snow1_d.tga
+	specularMap     textures/chasm_custom/pk02_snow1_s.tga
+	normalMap       textures/chasm_custom/pk02_snow1_n.tga
 
 	q3map_nonplanar
 	q3map_shadeangle 179
@@ -15,9 +15,9 @@ textures/chasm_custom/pk02_snow01_nonsolid
 {
 	surfaceparm 	nonsolid
 	qer_editorimage textures/chasm_custom/pk02_snow1_d.tga
-	diffusemap 	textures/chasm_custom/pk02_snow1_d.tga
-	specularmap 	textures/chasm_custom/pk02_snow1_s.tga
-	bumpmap 	textures/chasm_custom/pk02_snow1_n.tga
+	diffuseMap      textures/chasm_custom/pk02_snow1_d.tga
+	specularMap     textures/chasm_custom/pk02_snow1_s.tga
+	normalMap       textures/chasm_custom/pk02_snow1_n.tga
 
 	q3map_nonplanar
 	q3map_shadeangle 179
