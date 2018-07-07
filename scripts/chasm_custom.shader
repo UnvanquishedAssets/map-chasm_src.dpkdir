@@ -26,6 +26,7 @@ textures/chasm_custom/pk02_snow01_nonsolid
 textures/chasm_custom/sky
 {
 
+	qer_editorImage textures/chasm_custom/snowysky_p
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -87,12 +88,13 @@ textures/chasm_custom/glass
 }
 
 
-textures/chasm_custom/flake_01_s
+textures/chasm_custom/flake01
 {
+	qer_editorImage textures/chasm_custom/flake01_d
 	entityMergable
 	cull none
 	{
-		map textures/chasm_custom/flake_01
+		map textures/chasm_custom/flake01_d
 		blendFunc add
 		rgbGen		const ( 0.5 0.5 0.5 )
 		alphaGen	vertex
@@ -101,6 +103,7 @@ textures/chasm_custom/flake_01_s
 
 textures/chasm_custom/foglol
 {
+	qer_editorImage textures/chasm_custom/foglol_p
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm trans

@@ -24948,7 +24948,7 @@ shared_pk02/trim_set02a
 {
 "classname" "misc_anim_model"
 "origin" "172.000076 1508.000122 -318.999969"
-"model" "models/chasm/chasm_s.md3"
+"model" "models/chasm/sandal.md3"
 "radius" "0.19"
 "angle" "-6.752452"
 }
