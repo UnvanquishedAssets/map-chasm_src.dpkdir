@@ -20017,13 +20017,13 @@ shared_pk02/generic01a
 "classname" "target_speaker"
 "origin" "-1760.000000 800.000000 352.000000"
 "spawnflags" "1"
-"noise" "sound/chasm/wind1_supertanker.wav"
+"noise" "sound/chasm/wind1_supertanker"
 }
 {
 "classname" "target_speaker"
 "origin" "-896.000000 -1120.000000 448.000000"
 "spawnflags" "1"
-"noise" "sound/chasm/wind1_supertanker.wav"
+"noise" "sound/chasm/wind1_supertanker"
 }
 {
 "classname" "func_group"
@@ -21209,49 +21209,49 @@ shared_pk02/generic01a
 {
 "classname" "target_speaker"
 "origin" "1824.000000 1576.000000 224.000000"
-"noise" "sound/chasm/drone1.wav"
+"noise" "sound/chasm/drone1"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "1804.000000 1016.000000 276.000000"
-"noise" "sound/chasm/drone1.wav"
+"noise" "sound/chasm/drone1"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "788.000000 2496.000000 280.000000"
-"noise" "sound/chasm/generator.wav"
+"noise" "sound/chasm/generator"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "1072.000000 1504.000000 240.000000"
-"noise" "sound/chasm/ambient.wav"
+"noise" "sound/chasm/ambient"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-1480.000000 280.000000 192.000000"
 "spawnflags" "1"
-"noise" "sound/chasm/generator.wav"
+"noise" "sound/chasm/generator"
 }
 {
 "classname" "target_speaker"
 "origin" "448.000000 480.000000 192.000000"
-"noise" "sound/chasm/ambient.wav"
+"noise" "sound/chasm/ambient"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "320.000000 -496.000000 192.000000"
-"noise" "sound/chasm/wind1_supertanker.wav"
+"noise" "sound/chasm/wind1_supertanker"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "544.000000 1504.000000 240.000000"
-"noise" "sound/chasm/ambient.wav"
+"noise" "sound/chasm/ambient"
 "spawnflags" "1"
 }
 {
@@ -31684,7 +31684,7 @@ shared_pk02/generic01a
 "classname" "target_speaker"
 "origin" "-2880.000000 1504.000000 192.000000"
 "spawnflags" "1"
-"noise" "sound/chasm/wind1_supertanker.wav"
+"noise" "sound/chasm/wind1_supertanker"
 }
 {
 "classname" "func_group"
@@ -32816,7 +32816,7 @@ shared_pk02/generic01a
 "classname" "target_speaker"
 "origin" "-1984.000000 -432.000000 368.000000"
 "spawnflags" "1"
-"noise" "sound/chasm/wind1_supertanker.wav"
+"noise" "sound/chasm/wind1_supertanker"
 }
 {
 "classname" "target_location"
