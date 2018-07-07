@@ -110,7 +110,7 @@ textures/chasm_custom/foglol
 
 textures/chasm_custom/light03_800
 {
-	qer_editorImage     textures/shared_pk02_src/light03_p
+	qer_editorImage     textures/shared_pk02_src/light03_d
 
 	q3map_surfacelight  800
 	q3map_lightRGB      0.192 0.189 0.189
@@ -123,7 +123,7 @@ textures/chasm_custom/light03_800
 
 textures/chasm_custom/light03_1500
 {
-	qer_editorImage     textures/shared_pk02_src/light03_p
+	qer_editorImage     textures/shared_pk02_src/light03_d
 
 	q3map_surfacelight  1500
 	q3map_lightRGB      0.192 0.189 0.189
@@ -136,7 +136,7 @@ textures/chasm_custom/light03_1500
 
 textures/chasm_custom/light03_3000
 {
-	qer_editorImage     textures/shared_pk02_src/light03_p
+	qer_editorImage     textures/shared_pk02_src/light03_d
 
 	q3map_surfacelight  3000
 	q3map_lightRGB      0.192 0.189 0.189
@@ -149,7 +149,7 @@ textures/chasm_custom/light03_3000
 
 textures/chasm_custom/light01_blue_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_p
+	qer_editorImage     textures/shared_pk02_src/light01_d
 
 	q3map_surfacelight  12000
 	q3map_lightRGB      0.482 0.702 1.000
@@ -168,7 +168,7 @@ textures/chasm_custom/light01_blue_12000
 
 textures/chasm_custom/light01_orange_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_p
+	qer_editorImage     textures/shared_pk02_src/light01_d
 
 	q3map_surfacelight  1200
 	q3map_lightRGB      1.000 0.729 0.376
@@ -187,7 +187,7 @@ textures/chasm_custom/light01_orange_12000
 
 textures/chasm_custom/light01_red_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_p
+	qer_editorImage     textures/shared_pk02_src/light01_d
 
 	q3map_surfacelight  12000
 	q3map_lightRGB      1.000 0.424 0.380
@@ -206,7 +206,7 @@ textures/chasm_custom/light01_red_12000
 
 textures/chasm_custom/light01_white_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_p
+	qer_editorImage     textures/shared_pk02_src/light01_d
 
 	q3map_surfacelight  12000
 	q3map_lightRGB      1.000 1.000 1.000
@@ -219,7 +219,7 @@ textures/chasm_custom/light01_white_12000
 
 textures/chasm_custom/floor10
 {
-	qer_editorImage     textures/shared_pk02_src/floor10_p
+	qer_editorImage     textures/shared_pk02_src/floor10_d
 	qer_trans           0.30
 
 	cull                none
