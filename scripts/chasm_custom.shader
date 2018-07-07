@@ -1,7 +1,7 @@
 
 textures/chasm_custom/pk02_snow01
 {
-	qer_editorimage textures/chasm_custom/pk02_snow1_d.tga
+	qer_editorImage textures/chasm_custom/pk02_snow1_d.tga
 	diffuseMap      textures/chasm_custom/pk02_snow1_d.tga
 	specularMap     textures/chasm_custom/pk02_snow1_s.tga
 	normalMap       textures/chasm_custom/pk02_snow1_n.tga
@@ -14,7 +14,7 @@ textures/chasm_custom/pk02_snow01
 textures/chasm_custom/pk02_snow01_nonsolid
 {
 	surfaceparm 	nonsolid
-	qer_editorimage textures/chasm_custom/pk02_snow1_d.tga
+	qer_editorImage textures/chasm_custom/pk02_snow1_d.tga
 	diffuseMap      textures/chasm_custom/pk02_snow1_d.tga
 	specularMap     textures/chasm_custom/pk02_snow1_s.tga
 	normalMap       textures/chasm_custom/pk02_snow1_n.tga
@@ -71,7 +71,7 @@ textures/chasm_custom/glass
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	cull none
-	qer_editorimage textures/chasm_custom/scratchglass.jpg
+	qer_editorImage textures/chasm_custom/scratchglass.jpg
 	{
 		map textures/chasm_custom/scratchglass.jpg
 		rgbGen const ( 0.01 0.03 0.04 )
