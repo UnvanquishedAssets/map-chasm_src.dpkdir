@@ -1,10 +1,10 @@
 
 textures/chasm_custom/pk02_snow01
 {
-	qer_editorImage textures/chasm_custom/pk02_snow1_d.tga
-	diffuseMap      textures/chasm_custom/pk02_snow1_d.tga
-	specularMap     textures/chasm_custom/pk02_snow1_s.tga
-	normalMap       textures/chasm_custom/pk02_snow1_n.tga
+	qer_editorImage textures/chasm_custom/pk02_snow1_d
+	diffuseMap      textures/chasm_custom/pk02_snow1_d
+	specularMap     textures/chasm_custom/pk02_snow1_s
+	normalMap       textures/chasm_custom/pk02_snow1_n
 
 	q3map_nonplanar
 	q3map_shadeangle 179
@@ -14,10 +14,10 @@ textures/chasm_custom/pk02_snow01
 textures/chasm_custom/pk02_snow01_nonsolid
 {
 	surfaceparm 	nonsolid
-	qer_editorImage textures/chasm_custom/pk02_snow1_d.tga
-	diffuseMap      textures/chasm_custom/pk02_snow1_d.tga
-	specularMap     textures/chasm_custom/pk02_snow1_s.tga
-	normalMap       textures/chasm_custom/pk02_snow1_n.tga
+	qer_editorImage textures/chasm_custom/pk02_snow1_d
+	diffuseMap      textures/chasm_custom/pk02_snow1_d
+	specularMap     textures/chasm_custom/pk02_snow1_s
+	normalMap       textures/chasm_custom/pk02_snow1_n
 
 	q3map_nonplanar
 	q3map_shadeangle 179
@@ -39,7 +39,7 @@ textures/chasm_custom/sky
 
 	{
 		fog off
-		map textures/chasm_custom/stormyskybright.jpg
+		map textures/chasm_custom/stormyskybright
 		tcmod scroll -0.01 0.003
 		tcmod scale 2 2
 		alphaGen const 0.6
@@ -48,7 +48,7 @@ textures/chasm_custom/sky
 	}
 	{
 		fog off
-		map textures/chasm_custom/stormyskybright.jpg
+		map textures/chasm_custom/stormyskybright
 		tcmod scroll -0.005 0.002
 		tcmod scale 1.3 1.3
 		alphaGen const 0.6
@@ -58,7 +58,7 @@ textures/chasm_custom/sky
 
 	{
 		fog off
-		clampmap textures/chasm_custom/snowysky_mask.tga
+		clampmap textures/chasm_custom/snowysky_mask
 		blendFunc GL_sRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		tcMod transform 1 0 0 1 -1 -1
 	}
@@ -71,14 +71,14 @@ textures/chasm_custom/glass
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	cull none
-	qer_editorImage textures/chasm_custom/scratchglass.jpg
+	qer_editorImage textures/chasm_custom/scratchglass
 	{
-		map textures/chasm_custom/scratchglass.jpg
+		map textures/chasm_custom/scratchglass
 		rgbGen const ( 0.01 0.03 0.04 )
 		blendfunc add
 	}
 	{
-		map textures/chasm_custom/glass-env.tga
+		map textures/chasm_custom/glass-env
 		rgbGen identity
 		alphaGen const 0.09
 		tcGen environment
@@ -92,7 +92,7 @@ textures/chasm_custom/flake_01_s
 	entityMergable
 	cull none
 	{
-		map textures/chasm_custom/flake_01.tga
+		map textures/chasm_custom/flake_01
 		blendFunc add
 		rgbGen		const ( 0.5 0.5 0.5 )
 		alphaGen	vertex
