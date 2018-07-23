@@ -9992,7 +9992,7 @@ shared_pk02/generic01a
 }
 {
 "classname" "team_human_spawn"
-"origin" "512.000183 -96.000084 160.000000"
+"origin" "512.000183 -96.000084 8.000000"
 "angle" "89.486534"
 }
 {
@@ -10423,34 +10423,34 @@ shared_pk02/generic01a
 }
 {
 "classname" "team_human_spawn"
-"origin" "512.000000 -255.999985 160.000000"
-"angle" "47.550461"
+"origin" "512.000000 -255.999985 8.000000"
+"angle" "47.550457"
 }
 {
 "classname" "team_human_reactor"
-"origin" "320.000000 -128.000000 96.000000"
+"origin" "320.000000 -128.000000 8.000000"
 }
 {
 "classname" "team_human_armoury"
-"origin" "96.000000 -256.000000 160.000000"
+"origin" "96.000000 -256.000000 8.000000"
 "angle" "90.000000"
 }
 {
 "classname" "team_human_medistat"
-"origin" "512.000000 64.000000 160.000000"
+"origin" "512.000000 64.000000 8.000000"
 }
 {
 "classname" "team_human_mgturret"
-"origin" "80.000000 544.000000 160.000000"
+"origin" "80.000000 544.000000 72.000000"
 }
 {
 "classname" "team_human_mgturret"
-"origin" "160.000000 -63.999996 160.000000"
+"origin" "160.000000 -63.999996 8.000000"
 "angle" "180.000000"
 }
 {
 "classname" "team_human_mgturret"
-"origin" "127.999992 128.000000 160.000000"
+"origin" "127.999992 128.000000 8.000000"
 "angle" "180.000000"
 }
 {
@@ -15408,33 +15408,33 @@ shared_pk02/generic01a
 }
 {
 "classname" "team_alien_spawn"
-"origin" "1024.000000 2368.000000 384.000000"
+"origin" "1024.000000 2368.000000 184.000000"
 }
 {
 "classname" "team_alien_spawn"
-"origin" "960.000061 2624.000000 384.000000"
+"origin" "960.000061 2624.000000 184.000000"
 "angle" "44.801117"
 }
 {
 "classname" "team_alien_overmind"
-"origin" "1000.000122 2800.000000 216.000000"
+"origin" "1000.000122 2800.000000 184.000000"
 "angle" "45.874657"
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "320.000000 2416.000000 320.000000"
+"origin" "320.000000 2416.000000 184.000000"
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "784.000000 2816.000000 384.000000"
+"origin" "784.000000 2816.000000 184.000000"
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "544.000000 2272.000000 384.000000"
+"origin" "544.000000 2272.000000 184.000000"
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "1040.000000 2688.000000 384.000000"
+"origin" "1040.000000 2688.000000 184.000000"
 }
 {
 "classname" "info_alien_intermission"
@@ -17385,11 +17385,11 @@ shared_pk02/generic01a
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "864.000000 2272.000000 384.000000"
+"origin" "864.000000 2272.000000 184.000000"
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "320.000000 2816.000000 320.000000"
+"origin" "320.000000 2816.000000 184.000000"
 }
 {
 "classname" "func_group"
