@@ -1,6 +1,6 @@
 -[GENERAL]---------------------------------------------------------------------
     title : Snow Station 
-    version : beta 2
+    version : beta 3
     release date : 2013-10-26
     author: Supertanker
 
@@ -25,6 +25,7 @@
                
 
     sounds : none yet
+    particles : borrowed from Niveus
 
 -[BUILD]-----------------------------------------------------------------------
 IGNORE THIS I HAVEN'T UPDATED IT YET
@@ -38,3 +39,4 @@ IGNORE THIS I HAVEN'T UPDATED IT YET
 -[CHANGELOG]-------------------------------------------------------------------
 	beta1: first speedmap result (4 days)
 	beta2: changed computer room, added rocks and stuff outside
+	beta3: added snow particles

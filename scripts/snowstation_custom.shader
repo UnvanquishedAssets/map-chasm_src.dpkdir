@@ -1,10 +1,35 @@
+
+textures/snowstation_custom/pk02_snow01
+{
+	qer_editorimage textures/snowstation_custom/pk02_snow1_C.tga
+	diffusemap 	textures/snowstation_custom/pk02_snow1_C.tga
+	specularmap 	textures/snowstation_custom/pk02_snow1_S.tga
+	bumpmap 	textures/snowstation_custom/pk02_snow1_N.tga
+
+	q3map_nonplanar
+	q3map_shadeangle 179
+}
+
+
+textures/snowstation_custom/pk02_snow01_nonsolid
+{
+	surfaceparm 	nonsolid
+	qer_editorimage textures/snowstation_custom/pk02_snow1_C.tga
+	diffusemap 	textures/snowstation_custom/pk02_snow1_C.tga
+	specularmap 	textures/snowstation_custom/pk02_snow1_S.tga
+	bumpmap 	textures/snowstation_custom/pk02_snow1_N.tga
+
+	q3map_nonplanar
+	q3map_shadeangle 179
+}
+
 textures/snowstation_custom/sky
 {
 
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
-	skyparms - 384 -
+	skyparms - 512 -
 
 	q3map_lightRGB 0.3 0.3 0.3
 	//q3map_lightmapFilterRadius 0 4
@@ -15,7 +40,7 @@ textures/snowstation_custom/sky
 	{
 		fog off
 		map textures/snowstation_custom/stormyskybright.jpg
-		tcmod scroll -0.01 0.004
+		tcmod scroll -0.01 0.003
 		tcmod scale 2 2
 		rgbGen identityLighting
 	}
@@ -49,27 +74,16 @@ textures/snowstation_custom/glass
 		blendfunc blend
 	}
 }
-textures/snowstation_custom/pk02_snow01_nonsolid
+
+
+textures/snowstation_custom/flake_01_s
 {
-	surfaceparm 	nonsolid
-	qer_editorimage textures/snowstation_custom/pk02_snow1_C.tga
-	diffusemap 	textures/snowstation_custom/pk02_snow1_C.tga
-	specularmap 	textures/snowstation_custom/pk02_snow1_S.tga
-	bumpmap 	textures/snowstation_custom/pk02_snow1_N.tga
-
-	q3map_nonplanar
-	q3map_shadeangle 179
+	entityMergable
+	cull none
+	{
+		map textures/snowstation_custom/flake_01.tga
+		blendFunc add
+		rgbGen		const ( 0.5 0.5 0.5 )
+		alphaGen	vertex
+	}
 }
-
-textures/snowstation_custom/pk02_snow01
-{
-	qer_editorimage textures/snowstation_custom/pk02_snow1_C.tga
-	diffusemap 	textures/snowstation_custom/pk02_snow1_C.tga
-	specularmap 	textures/snowstation_custom/pk02_snow1_S.tga
-	bumpmap 	textures/snowstation_custom/pk02_snow1_N.tga
-
-	q3map_nonplanar
-	q3map_shadeangle 179
-}
-
-
