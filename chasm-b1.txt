@@ -1,7 +1,7 @@
 -[GENERAL]---------------------------------------------------------------------
-    title : Snow Station 
-    version : beta 4
-    release date : 2013-10-26
+    title : Chasm
+    version : beta 1
+    release date : 2013-12-22
     author: Supertanker
 
 -[LICENSE]---------------------------------------------------------------------
@@ -36,15 +36,18 @@
     particles : borrowed from Niveus
 
 -[BUILD]-----------------------------------------------------------------------
-IGNORE THIS I HAVEN'T UPDATED IT YET
-    software : Netradiant 1.5.0, q3map2, GIMP 2.8, audacity 2.0.2
-    compile : q3map2 -threads 4 -meta -custinfoparms -keeplights
-              q3map2 -threads 4 -vis -saveprt
-              q3map2 -threads 4 -light -faster -patchshadows -deluxe 
-                     -deluxemode 1 -lightmapsize 1024 -external
-    compile time : 298 seconds on i3-2120 CPU @ 3.30GHz x 4
+
+    software : Netradiant 1.5.0, q3map2, GIMP 2.8, audacity
+    compile time : 11489 seconds on AMD 3800+ x2 2GHz
 	
 -[CHANGELOG]-------------------------------------------------------------------
+
+	SNOWSTATION:
 	beta1: first speedmap result (4 days)
 	beta2: changed computer room, added rocks and stuff outside
 	beta3: added snow particles
+	beta4: I forgot
+	
+	CHANGED NAME TO CHASM
+	beta1: decorations, tweaked lighting
+	

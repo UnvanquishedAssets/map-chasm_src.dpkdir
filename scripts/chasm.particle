@@ -1,10 +1,10 @@
-snowstation/snowfall
+chasm/snowfall
 {
 	ejector
 	{
 		particle
 		{
-		shader sync textures/snowstation_custom/flake_01_s
+		shader sync textures/chasm_custom/flake_01_s
 		displacement 		0 0 0 ~512
 
 		velocityType		static
@@ -25,10 +25,10 @@ snowstation/snowfall
 		rotation		0 0 ~360
 		bounce		0.0
 
-		lifeTime 10000
+		lifeTime 9000
 		}
 	count infinite
 	delay 0
-	period 240 - ~2%
+	period 250 - ~2%
 	}
 }
