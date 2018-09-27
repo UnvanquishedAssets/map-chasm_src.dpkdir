@@ -1,6 +1,6 @@
 -[GENERAL]---------------------------------------------------------------------
     title : Snow Station 
-    version : beta 1
+    version : beta 2
     release date : 2013-10-26
     author: Supertanker
 
@@ -37,3 +37,4 @@ IGNORE THIS I HAVEN'T UPDATED IT YET
 	
 -[CHANGELOG]-------------------------------------------------------------------
 	beta1: first speedmap result (4 days)
+	beta2: changed computer room, added rocks and stuff outside
