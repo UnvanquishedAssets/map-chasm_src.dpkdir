@@ -25,10 +25,10 @@ snowstation/snowfall
 		rotation		0 0 ~360
 		bounce		0.0
 
-		lifeTime 12000
+		lifeTime 10000
 		}
 	count infinite
 	delay 0
-	period 180 - ~0%
+	period 240 - ~2%
 	}
 }

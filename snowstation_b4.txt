@@ -1,6 +1,6 @@
 -[GENERAL]---------------------------------------------------------------------
     title : Snow Station 
-    version : beta 3
+    version : beta 4
     release date : 2013-10-26
     author: Supertanker
 
@@ -24,7 +24,15 @@
                (http://www.lunaran.com)
                
 
-    sounds : none yet
+    sounds :  
+		Wind sounds by kangaroovindaloo on freesound.org (CC BY 3.0)
+		Generator sound by HerbertBoland on freesound.org (CC Sampling Plus 1.0)
+		Drone sound by yawfle on freesound.org (CC Sampling Plus 1.0)
+
+		ambient.wav (originally: sound-underwater2.wav) by zippi1
+			(http://www.freesound.org/people/zippi1/sounds/18265/)
+			released under CC BY-NC license
+
     particles : borrowed from Niveus
 
 -[BUILD]-----------------------------------------------------------------------
