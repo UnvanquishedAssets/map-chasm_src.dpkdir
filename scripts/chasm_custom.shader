@@ -68,11 +68,12 @@ textures/chasm_custom/sky
 
 textures/chasm_custom/glass
 {
+	qer_editorImage textures/chasm_custom/scratchglass
+	qer_trans .2
 	surfaceparm trans
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	cull none
-	qer_editorImage textures/chasm_custom/scratchglass
 	{
 		map textures/chasm_custom/scratchglass
 		rgbGen const ( 0.01 0.03 0.04 )
@@ -104,6 +105,7 @@ textures/chasm_custom/flake01
 textures/chasm_custom/foglol
 {
 	qer_editorImage textures/chasm_custom/foglol_p
+	qer_trans .3
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm trans
