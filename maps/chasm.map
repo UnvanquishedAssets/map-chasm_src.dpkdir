@@ -1,7 +1,7 @@
 {
 "classname" "worldspawn"
 "message" "Chasm"
-"colorGrade" "gfx/chasm/colorgrading"
+"gradingTexture" "gfx/chasm/colorgrading"
 "gridsize" "128 128 128"
 "reverbIntensity" "0.6"
 "reverbEffect" "factory_mediumroom"
@@ -12040,7 +12040,7 @@ shared_pk02/generic01a
 "angle" "270"
 "lip" "5"
 "speed" "128"
-"team" "bigfrontdoor1"
+"group" "bigfrontdoor1"
 {
 ( -704 192 256 ) ( -704 -192 256 ) ( -736 192 256 ) common/caulk 0 256 0 0.0625 0.625 134217728 0 0
 ( -704 192 256 ) ( -704 192 160 ) ( -704 -192 256 ) shared_pk02/door01 256 0 0 0.6250000596 0.5 134217728 0 0
@@ -14631,7 +14631,7 @@ shared_pk02/generic01a
 {
 "classname" "func_door"
 "angle" "90"
-"team" "bigfrontdoor1"
+"group" "bigfrontdoor1"
 "speed" "128"
 "lip" "5"
 {
@@ -15578,7 +15578,7 @@ shared_pk02/generic01a
 "speed" "96"
 "lip" "19"
 "angle" "90"
-"team" "alien1"
+"group" "alien1"
 {
 ( 156 2712 304 ) ( 180 2712 304 ) ( 156 2432 304 ) common/caulk 32 8 90 0.5 0.5 134217728 0 0
 ( 172 2712 272 ) ( 172 2432 272 ) ( 172 2712 208 ) shared_pk01/pan_wall01 448 192 0 0.25 0.25 134217728 0 0
@@ -15595,7 +15595,7 @@ shared_pk02/generic01a
 "speed" "96"
 "lip" "19"
 "angle" "270"
-"team" "alien1"
+"group" "alien1"
 {
 ( 196 2440 304 ) ( 172 2440 304 ) ( 196 2720 304 ) common/caulk 32 8 -90 0.5 0.5 134217728 0 0
 ( 180 2440 272 ) ( 180 2720 272 ) ( 180 2440 208 ) shared_pk01/pan_wall01 64 192 0 -0.25 0.25 134217728 0 0
@@ -15652,7 +15652,7 @@ shared_pk02/generic01a
 "speed" "96"
 "lip" "19"
 "angle" "0"
-"team" "alien2"
+"group" "alien2"
 {
 ( 840 2180 304 ) ( 840 2156 304 ) ( 560 2180 304 ) common/caulk 32 40 90 0.5 0.5 134217728 0 0
 ( 840 2164 272 ) ( 560 2164 272 ) ( 840 2164 208 ) shared_pk01/pan_wall01 203.1743164062 192 0 0.2460937351 0.25 134217728 0 0
@@ -15669,7 +15669,7 @@ shared_pk02/generic01a
 "speed" "96"
 "lip" "19"
 "angle" "180"
-"team" "alien2"
+"group" "alien2"
 {
 ( 568 2140 304 ) ( 568 2164 304 ) ( 848 2140 304 ) common/caulk 32 40 -90 0.5 0.5 134217728 0 0
 ( 568 2156 272 ) ( 848 2156 272 ) ( 568 2156 208 ) shared_pk01/pan_wall01 292.5715332031 192 0 -0.2460937351 0.25 134217728 0 0
