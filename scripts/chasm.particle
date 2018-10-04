@@ -23,7 +23,7 @@ chasm/snowfall
 			radius 0 4 3
 			alpha 0 .3 .4
 			rotation 0 0 ~360
-			bounce 0.0
+			bounce 0
 
 			lifeTime 9000
 		}
