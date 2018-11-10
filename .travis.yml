@@ -1,0 +1,41 @@
+sudo: required
+
+os:
+  - linux
+
+dist:
+  - xenial
+
+language:
+  - c
+
+compiler:
+  - gcc
+
+env:
+  - DEPS="${PWD}/../deps" PATH="${PATH}:${DEPS}/netradiant/build"
+
+before_install:
+  - (! find . -name '*.autosave.map' -o -name '*.bak' | egrep -m 1 '.')
+  - (! find . -name '*.bsp' -o -name '*.prt' -o -name '*.srf' -o -name '*.lin' -o -name 'lm_*.tga' | egrep -m 1 '.')
+  - (! find . -name '*.tga' -o -name '*.wav' | egrep -m 1 '.')
+  - (! egrep -m 1 '^// entity' maps/*.map)
+  - (! egrep -m 1 '^// brush' maps/*.map)
+
+install:
+  - sudo apt-get install libx11-dev libgtk2.0-dev libgtkglext1-dev libxml2-dev libwebp-dev libjpeg-dev libminizip-dev
+  - mkdir -p "${DEPS}/paks"
+  - git clone --depth 1 https://gitlab.com/xonotic/netradiant.git "${DEPS}/netradiant"
+  - git clone --depth 1 https://github.com/UnvanquishedAssets/tex-common_src.dpkdir.git "${DEPS}/paks/tex-common_src.dpkdir"
+  - cmake -G "Unix Makefiles" -H"${DEPS}/netradiant" -B"${DEPS}/netradiant/build" -DCMAKE_BUILD_TYPE=Release -DBUILD_RADIANT=OFF
+  - cmake --build "${DEPS}/netradiant/build" -- -j"$(nproc)" q3map2
+
+script:
+  - q3map2 -game unvanquished -fs_nohomepath -fs_nomagicpath -fs_pakpath . -fs_pakpath "${DEPS}/paks/tex-common_src.dpkdir" -bsp -leaktest maps/*.map
+
+notifications:
+  irc:
+    - "irc.freenode.org#unvanquished-dev"
+    - "irc.quakenet.org#unvanquished"
+  on_success: change
+  on_failure: always
