@@ -2,6 +2,7 @@
 textures/chasm_custom/pk02_snow01
 {
 	qer_editorImage textures/chasm_custom/pk02_snow1_d
+
 	{
 		diffuseMap  textures/chasm_custom/pk02_snow1_d
 		specularMap textures/chasm_custom/pk02_snow1_s
@@ -15,8 +16,10 @@ textures/chasm_custom/pk02_snow01
 
 textures/chasm_custom/pk02_snow01_nonsolid
 {
-	surfaceparm 	nonsolid
 	qer_editorImage textures/chasm_custom/pk02_snow1_d
+
+	surfaceparm nonsolid
+
 	{
 		diffuseMap  textures/chasm_custom/pk02_snow1_d
 		specularMap textures/chasm_custom/pk02_snow1_s
@@ -31,16 +34,17 @@ textures/chasm_custom/sky
 {
 
 	qer_editorImage textures/chasm_custom/snowysky_p
+
+	q3map_lightRGB .3 .3 .3
+//	q3map_lightmapFilterRadius 0 4
+	q3map_skyLight 88 7
+	q3map_nofog
+
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
+
 	skyparms - 512 -
-
-	q3map_lightRGB .3 .3 .3
-	//q3map_lightmapFilterRadius 0 4
-	q3map_skyLight 88 7
-
-	q3map_nofog
 
 	{
 		fog off
@@ -51,6 +55,7 @@ textures/chasm_custom/sky
 		blendFunc blend
 		rgbGen identityLighting
 	}
+
 	{
 		fog off
 		map textures/chasm_custom/stormyskybright
@@ -73,15 +78,19 @@ textures/chasm_custom/glass
 {
 	qer_editorImage textures/chasm_custom/scratchglass
 	qer_trans .2
+
 	surfaceparm trans
 	surfaceparm nolightmap
 	surfaceparm nomarks
+
 	cull none
+
 	{
 		map textures/chasm_custom/scratchglass
 		rgbGen const ( .01 .03 .04 )
 		blendfunc add
 	}
+
 	{
 		map textures/chasm_custom/glass-env
 		rgbGen identity
@@ -94,13 +103,15 @@ textures/chasm_custom/glass
 textures/chasm_custom/flake01
 {
 	qer_editorImage textures/chasm_custom/flake01_d
+
 	entityMergable
 	cull none
+
 	{
 		map textures/chasm_custom/flake01_d
 		blendFunc add
-		rgbGen		const ( .5 .5 .5 )
-		alphaGen	vertex
+		rgbGen const ( .5 .5 .5 )
+		alphaGen vertex
 	}
 }
 
@@ -108,10 +119,12 @@ textures/chasm_custom/foglol
 {
 	qer_editorImage textures/chasm_custom/foglol_p
 	qer_trans .3
+
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm trans
 	surfaceparm fog
+
 	fogparms ( 0 0 0 ) 512
 }
 
@@ -229,49 +242,23 @@ textures/chasm_custom/light01_white_12000
 	}
 }
 
+// grate
 textures/chasm_custom/floor10
 {
 	qer_editorImage     textures/shared_pk02_src/floor10_d
 	qer_trans           .3
 
-	cull                none
 	surfaceparm         metalsteps
 	surfaceparm         trans
-	surfaceparm 	    alphashadow
-	surfaceparm 	    nomarks
+	surfaceparm         alphashadow
+	surfaceparm         nomarks
+
+	cull                none
 
 	{
 		diffuseMap      textures/shared_pk02_src/floor10_d
-		alphaFunc GE128
-		depthWrite
-	}
-	{ 
-		stage normalMap
-		map   textures/shared_pk02_src/floor10_n
-		depthFunc equal
-	}
-	{
-		stage specularMap
-		map textures/shared_pk02_src/floor10_s
-		depthFunc equal
-	}
-}
-
-// grate
-textures/chasm_pk02/floor10
-{
-	qer_editorImage     textures/chasm_pk02_src/pk02_floor10_d
-	qer_trans           .5
-
-	cull                none
-	surfaceparm         metalsteps
-	surfaceparm         trans
-	surfaceparm 	    alphashadow
-	{
-		diffuseMap      textures/chasm_pk02_src/pk02_floor10_d
-		stage     diffuseMap
+		normalMap       textures/shared_pk02_src/floor10_n
+		specularMap     textures/shared_pk02_src/floor10_s
 		alphaFunc GE128
 	}
-	normalMap           textures/chasm_pk02_src/pk02_floor10_n
-	specularMap         textures/chasm_pk02_src/pk02_floor10_s
 }
