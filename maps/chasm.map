@@ -10699,7 +10699,7 @@ shared_pk02/generic01a
 }
 {
 "classname" "team_human_medistat"
-"origin" "512.000000 64.000000 24.000000"
+"origin" "176.000000 -192.000000 24.000000"
 }
 {
 "classname" "team_human_mgturret"
