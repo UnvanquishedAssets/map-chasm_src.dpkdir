@@ -15671,11 +15671,12 @@ shared_pk02/generic01a
 {
 "classname" "team_alien_spawn"
 "origin" "1024.000000 2368.000000 200.000000"
+"angle" "180"
 }
 {
 "classname" "team_alien_spawn"
 "origin" "960.000061 2624.000000 200.000000"
-"angle" "44.801117"
+"angle" "135"
 }
 {
 "classname" "team_alien_overmind"
