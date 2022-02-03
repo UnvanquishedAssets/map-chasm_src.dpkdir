@@ -10927,12 +10927,12 @@ shared_pk02/generic01a
 }
 {
 "classname" "team_human_armoury"
-"origin" "96.000000 -256.000000 24.000000"
+"origin" "320.000000 -256.000000 24.000000"
 "angle" "90.000000"
 }
 {
 "classname" "team_human_medistat"
-"origin" "176.000000 -192.000000 24.000000"
+"origin" "224.000000 -248.000000 24.000000"
 }
 {
 "classname" "team_human_mgturret"
