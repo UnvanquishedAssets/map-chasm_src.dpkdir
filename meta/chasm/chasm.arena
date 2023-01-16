@@ -1,5 +1,6 @@
 {
-	map		"chasm"
-	longname	"Chasm"
-	type		"tremulous"
+	map "chasm"
+	longname "Chasm"
+	author "Supertanker"
+	type "tremulous"
 }
