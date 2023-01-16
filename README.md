@@ -1,7 +1,7 @@
 Chasm game level for Unvanquished
 =================================
 
-![Chasm levelshot](meta/chasm/chasm.jpg)
+![Chasm levelshot](meta/chasm/chasm.webp)
 
 
 About
