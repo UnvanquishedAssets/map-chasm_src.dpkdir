@@ -2,9 +2,9 @@
 "classname" "worldspawn"
 "message" "Chasm"
 "gradingTexture" "gfx/chasm/colorgrading"
-"gridsize" "128 128 128"
-"reverbIntensity" "0.6"
 "reverbEffect" "factory_mediumroom"
+"reverbIntensity" "0.6"
+"gridsize" "128 128 128"
 "_blocksize" "2048"
 {
 ( 640 448 0 ) ( 640 -256 0 ) ( 64 448 0 ) shared_pk02/floor02 896 0 0 0.5 0.5 0 0 0
