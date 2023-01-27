@@ -1,18 +1,16 @@
-
 textures/chasm_custom/pk02_snow01
 {
 	qer_editorImage textures/chasm_custom/pk02_snow1_d
 
 	{
-		diffuseMap  textures/chasm_custom/pk02_snow1_d
+		diffuseMap textures/chasm_custom/pk02_snow1_d
 		specularMap textures/chasm_custom/pk02_snow1_s
-		normalMap   textures/chasm_custom/pk02_snow1_n
+		normalMap textures/chasm_custom/pk02_snow1_n
 	}
 
 	q3map_nonplanar
 	q3map_shadeangle 179
 }
-
 
 textures/chasm_custom/pk02_snow01_nonsolid
 {
@@ -21,9 +19,9 @@ textures/chasm_custom/pk02_snow01_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap  textures/chasm_custom/pk02_snow1_d
+		diffuseMap textures/chasm_custom/pk02_snow1_d
 		specularMap textures/chasm_custom/pk02_snow1_s
-		normalMap   textures/chasm_custom/pk02_snow1_n
+		normalMap textures/chasm_custom/pk02_snow1_n
 	}
 
 	q3map_nonplanar
@@ -32,7 +30,6 @@ textures/chasm_custom/pk02_snow01_nonsolid
 
 textures/chasm_custom/sky
 {
-
 	qer_editorImage textures/chasm_custom/snowysky_p
 
 	q3map_lightRGB .3 .3 .3
@@ -130,135 +127,135 @@ textures/chasm_custom/foglol
 
 textures/chasm_custom/light03_800
 {
-	qer_editorImage     textures/shared_pk02_src/light03_d
+	qer_editorImage textures/shared_pk02_src/light03_d
 
-	q3map_surfacelight  800
-	q3map_lightRGB      .192 .189 .189
+	q3map_surfacelight 800
+	q3map_lightRGB .192 .189 .189
 
 	{
-		diffuseMap      textures/shared_pk02_src/light03_d
-		normalMap       textures/shared_pk02_src/light03_n
-		specularMap     textures/shared_pk02_src/light03_s
-		glowMap         textures/shared_pk02_src/light03_a
+		diffuseMap textures/shared_pk02_src/light03_d
+		normalMap textures/shared_pk02_src/light03_n
+		specularMap textures/shared_pk02_src/light03_s
+		glowMap textures/shared_pk02_src/light03_a
 	}
 }
 
 textures/chasm_custom/light03_1500
 {
-	qer_editorImage     textures/shared_pk02_src/light03_d
+	qer_editorImage textures/shared_pk02_src/light03_d
 
-	q3map_surfacelight  1500
-	q3map_lightRGB      .192 .189 .189
+	q3map_surfacelight 1500
+	q3map_lightRGB .192 .189 .189
 
 	{
-		diffuseMap      textures/shared_pk02_src/light03_d
-		normalMap       textures/shared_pk02_src/light03_n
-		specularMap     textures/shared_pk02_src/light03_s
-		glowMap         textures/shared_pk02_src/light03_a
+		diffuseMap textures/shared_pk02_src/light03_d
+		normalMap textures/shared_pk02_src/light03_n
+		specularMap textures/shared_pk02_src/light03_s
+		glowMap textures/shared_pk02_src/light03_a
 	}
 }
 
 textures/chasm_custom/light03_3000
 {
-	qer_editorImage     textures/shared_pk02_src/light03_d
+	qer_editorImage textures/shared_pk02_src/light03_d
 
-	q3map_surfacelight  3000
-	q3map_lightRGB      .192 .189 .189
+	q3map_surfacelight 3000
+	q3map_lightRGB .192 .189 .189
 
 	{
-		diffuseMap      textures/shared_pk02_src/light03_d
-		normalMap       textures/shared_pk02_src/light03_n
-		specularMap     textures/shared_pk02_src/light03_s
-		glowMap         textures/shared_pk02_src/light03_a
+		diffuseMap textures/shared_pk02_src/light03_d
+		normalMap textures/shared_pk02_src/light03_n
+		specularMap textures/shared_pk02_src/light03_s
+		glowMap textures/shared_pk02_src/light03_a
 	}
 }
 
 textures/chasm_custom/light01_blue_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_d
+	qer_editorImage textures/shared_pk02_src/light01_d
 
-	q3map_surfacelight  12000
-	q3map_lightRGB      .482 .702 1
+	q3map_surfacelight 12000
+	q3map_lightRGB .482 .702 1
 
 	{
-		diffuseMap      textures/shared_pk02_src/light01_d
-		normalMap       textures/shared_pk02_src/light01_n
-		specularMap     textures/shared_pk02_src/light01_s
-		glowMap         textures/shared_pk02_src/light01_a
-		red   .417
+		diffuseMap textures/shared_pk02_src/light01_d
+		normalMap textures/shared_pk02_src/light01_n
+		specularMap textures/shared_pk02_src/light01_s
+		glowMap textures/shared_pk02_src/light01_a
+		red .417
 		green .654
-		blue  1
+		blue 1
 	}
 }
 
 textures/chasm_custom/light01_orange_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_d
+	qer_editorImage textures/shared_pk02_src/light01_d
 
-	q3map_surfacelight  1200
-	q3map_lightRGB      1 .729 .376
+	q3map_surfacelight 1200
+	q3map_lightRGB 1 .729 .376
 
 	{
-		diffuseMap      textures/shared_pk02_src/light01_d
-		normalMap       textures/shared_pk02_src/light01_n
-		specularMap     textures/shared_pk02_src/light01_s
-		glowMap         textures/shared_pk02_src/light01_a
-		red   1
+		diffuseMap textures/shared_pk02_src/light01_d
+		normalMap textures/shared_pk02_src/light01_n
+		specularMap textures/shared_pk02_src/light01_s
+		glowMap textures/shared_pk02_src/light01_a
+		red 1
 		green .685
-		blue  .31
+		blue .31
 	}
 }
 
 textures/chasm_custom/light01_red_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_d
+	qer_editorImage textures/shared_pk02_src/light01_d
 
-	q3map_surfacelight  12000
-	q3map_lightRGB      1 .424 .38
+	q3map_surfacelight 12000
+	q3map_lightRGB 1 .424 .38
 
 	{
-		diffuseMap      textures/shared_pk02_src/light01_d
-		normalMap       textures/shared_pk02_src/light01_n
-		specularMap     textures/shared_pk02_src/light01_s
-		glowMap         textures/shared_pk02_src/light01_a
-		red   1
+		diffuseMap textures/shared_pk02_src/light01_d
+		normalMap textures/shared_pk02_src/light01_n
+		specularMap textures/shared_pk02_src/light01_s
+		glowMap textures/shared_pk02_src/light01_a
+		red 1
 		green .357
-		blue  .314
+		blue .314
 	}
 }
 
 textures/chasm_custom/light01_white_12000
 {
-	qer_editorImage     textures/shared_pk02_src/light01_d
+	qer_editorImage textures/shared_pk02_src/light01_d
 
-	q3map_surfacelight  12000
-	q3map_lightRGB      1 1 1
+	q3map_surfacelight 12000
+	q3map_lightRGB 1 1 1
 
 	{
-		diffuseMap      textures/shared_pk02_src/light01_d
-		normalMap       textures/shared_pk02_src/light01_n
-		specularMap     textures/shared_pk02_src/light01_s
-		glowMap         textures/shared_pk02_src/light01_a
+		diffuseMap textures/shared_pk02_src/light01_d
+		normalMap textures/shared_pk02_src/light01_n
+		specularMap textures/shared_pk02_src/light01_s
+		glowMap textures/shared_pk02_src/light01_a
 	}
 }
 
 // grate
 textures/chasm_custom/floor10
 {
-	qer_editorImage     textures/shared_pk02_src/floor10_d
-	qer_trans           .3
+	qer_editorImage textures/shared_pk02_src/floor10_d
+	qer_trans .3
 
-	surfaceparm         metalsteps
-	surfaceparm         trans
-	surfaceparm         alphashadow
-	surfaceparm         nomarks
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	surfaceparm nomarks
 
-	cull                none
+	cull none
 
 	{
-		diffuseMap      textures/shared_pk02_src/floor10_d
-		normalMap       textures/shared_pk02_src/floor10_n
-		specularMap     textures/shared_pk02_src/floor10_s
+		diffuseMap textures/shared_pk02_src/floor10_d
+		normalMap textures/shared_pk02_src/floor10_n
+		specularMap textures/shared_pk02_src/floor10_s
 		alphaFunc GE128
 	}
 }

@@ -59,7 +59,7 @@
 -[ setting ]-----------------------------------------------------------------
 
     theme: A snowstation close to a chasm of instant death.
-    
+
 -[ changelog ]---------------------------------------------------------------
     beta1: first speedmap result (4 days)
     beta2: changed computer room, added rocks and stuff outside

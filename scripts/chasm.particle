@@ -19,7 +19,6 @@ chasm/snowfall
 			acceleration 0 0 0 ~25
 			accelerationMagnitude 52
 
-
 			radius 0 4 3
 			alpha 0 .3 .4
 			rotation 0 0 ~360
@@ -27,8 +26,9 @@ chasm/snowfall
 
 			lifeTime 9000
 		}
-	count infinite
-	delay 0
-	period 250 - ~2%
+
+		count infinite
+		delay 0
+		period 250 - ~2%
 	}
 }
