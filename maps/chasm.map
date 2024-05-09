@@ -37544,3 +37544,38 @@ shared_pk02/generic01a
 ( -1312 64 72 ) ( -1280 64 72 ) ( -1312 -64 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 }
 }
+{
+"classname" "pos_navcon_start"
+"origin" "-1712.000000 1592.000000 248.000000"
+"target" "pos_navcon_1"
+"playerclasses" "builder level0 level1"
+"spawnflags" "1"
+}
+{
+"classname" "pos_navcon_next"
+"origin" "-1816.000000 1656.000000 184.000000"
+"targetname" "pos_navcon_1"
+"target" "pos_navcon_2"
+}
+{
+"classname" "pos_navcon_next"
+"origin" "-1776.000000 1744.000000 168.000000"
+"targetname" "pos_navcon_2"
+"target" "pos_navcon_3"
+}
+{
+"classname" "pos_navcon_next"
+"origin" "-1856.000000 1832.000000 112.000000"
+"targetname" "pos_navcon_3"
+}
+{
+"classname" "pos_navcon_start"
+"origin" "-1656.000000 1056.000000 272.000000"
+"playerclasses" "aliens"
+"target" "pos_navcon_4"
+}
+{
+"classname" "pos_navcon_next"
+"origin" "-1680.000000 896.000000 80.000000"
+"targetname" "pos_navcon_4"
+}
