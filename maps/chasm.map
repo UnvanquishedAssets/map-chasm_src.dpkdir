@@ -37548,6 +37548,7 @@ shared_pk02/generic01a
 "classname" "pos_navcon_start"
 "origin" "-1712.000000 1592.000000 248.000000"
 "target" "pos_navcon_1"
+"size" "80"
 "playerclasses" "builder level0 level1"
 "spawnflags" "1"
 }
