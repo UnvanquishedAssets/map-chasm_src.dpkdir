@@ -106,6 +106,7 @@ textures/chasm_custom/flake01
 
 	{
 		map textures/chasm_custom/flake01_d
+		rawColorMap
 		blendFunc add
 		rgbGen const ( .5 .5 .5 )
 		alphaGen vertex
